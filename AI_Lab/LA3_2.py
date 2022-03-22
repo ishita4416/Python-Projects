@@ -79,6 +79,7 @@ def display(temp):
 
 
 # function to calculate the number of misplaced tiles at each step state
+# the number of misplaced tiles taken to be the heuristic function 
 def MisPlacedTiles(NewState):
     c = 0
     for i in range(0, 3):
